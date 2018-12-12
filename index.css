@@ -1,0 +1,187 @@
+body
+{
+    margin:0px;   
+}
+    header
+{
+    margin:0px;
+    height:70px;
+    position: fixed;
+    background-image:url("header.jpg");
+    width:100%;
+    background-repeat:repeat-x;
+}
+#welcome
+{
+    background-image:url("wel.jpg");
+    min-height:725px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom-style: none;
+    
+    
+}
+
+
+#main
+{
+    background-image: url(q.jpg);
+    background-repeat: no-repeat;
+   background-size: contain;
+    width:auto;
+    height:200px;
+    background-position: center;
+    
+    
+    
+   
+    
+}
+#final
+{
+   
+    background-image:url("wel2.jpg");
+    min-height:725px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom-style: none;
+    
+
+}
+footer
+{
+   
+    height:80px;
+    
+   
+    background-image:url("header.jpg");
+    width:100%;
+    background-repeat:repeat-x;
+    
+}
+    
+
+li
+{  
+    display: inline;
+    
+    
+}
+
+li a
+{ 
+    text-decoration: none;
+    border:1px solid yellow;
+   
+    margin:20px;
+    padding:10px;
+    color:white;
+    background-color: black;
+    opacity: .5;
+    transition: padding .5s ease; 
+    
+    
+}
+li a:hover
+{       
+    border-color:orange;
+    color:red;
+    background-color:darkgrey;
+    padding:15px;
+    opacity:1;
+    
+
+    
+}
+#list
+{
+width:auto;
+border: 2px black solid;
+}
+#load
+{
+    width:50px;
+    height: 50px;
+    border:5px solid #ccc;
+    border-top-color:#ff6a00;
+    border-radius: 100%;
+    position:fixed;
+    left:0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    animation: round 1s linear infinite;
+}
+@keyframes round
+{
+    from{transform:rotate(0deg)}
+    to{transform: rotate(360deg)}
+    
+}
+@media (max-width:960px)
+{
+   
+    li a
+    {
+        
+         border:none;
+       
+        font-size:12px;
+         transition: none; 
+         background-color:none;
+        padding: 0px;
+    }
+    li a:hover
+    {
+        
+      padding:0px;
+        
+    }
+  
+    
+    #welcome
+    {
+        
+       background-size:contain;
+        
+    }
+    #final
+    {
+      background-size: contain;
+       
+        
+    }
+    
+    @media (max-width:620px)
+    {
+        
+        
+        
+        #signn
+        {
+            visibility: hidden;
+        }
+        #con
+        {
+             visibility: hidden;
+        }
+    }
+    @media (max-width:320px)
+    {
+        #container
+        {
+            width:320px;
+        }
+    }
+
+
+
+
+
+
+

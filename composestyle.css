@@ -1,0 +1,9 @@
+<?php
+
+header('Content-type:text/css');
+?>
+
+#form
+{
+    width:auto;
+}

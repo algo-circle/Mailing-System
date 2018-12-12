@@ -1,0 +1,32 @@
+#box
+{
+  border:solid 2px black;
+    width:70%;
+    height:auto;
+}
+
+
+ul li
+{
+    display: inline;
+    margin:2%;
+    margin-left:0px;
+    
+}
+ul li button
+{
+    padding: 20px;
+    border-radius: 40%;
+    color: rgb(56, 58, 75);
+    background-color: rgb(115, 197, 182);
+    font-weight: 300;
+    
+}
+#iframes
+{
+   
+    width: 100%;
+    border-style: none;
+        height:500px;
+    overflow: scroll;
+}
